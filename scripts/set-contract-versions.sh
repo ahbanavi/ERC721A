@@ -1,6 +1,6 @@
 #!/bin/bash
 shopt -s globstar
-git checkout contract-version-test;
+git checkout main;
 
 version_str="ERC721A Contracts Version";
 new_version=$1;
